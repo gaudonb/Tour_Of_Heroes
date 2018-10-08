@@ -1,0 +1,97 @@
+.heroes {
+	position: relative;
+	margin: 0 auto 2em;
+	list-style-type: none;
+	padding: 0;
+	width: 16em;
+}
+
+.heroes li {
+	position: relative;
+	cursor: pointer;
+	background-color: #ddd;
+	width: 16em;
+	margin: .8em;
+	height: 3.6em;
+	border-radius: .4em;
+	box-shadow: .3em .3em .3em #888;
+}
+ 
+.heroes li:hover {
+	color: #607D8B;
+	background-color: #ccc;
+	left: .1em;
+}
+ 
+.heroes .badge {
+	z-index: 100;
+	display: inline-block;
+	float: right;
+	color: white;
+	padding: .9em .6em .5em;
+	background-color: #607D8B;
+	position: relative;
+	min-height: 1.8em;
+	min-width: 16px;
+	right: -1.2em;
+	font-size: 115%;
+	margin-right: .8em;
+	border-radius: 0 .4em .4em 0;
+}
+
+.heroProperties {
+	padding: .25em .5em;
+	display: inline-block;
+	width:73%;
+}
+
+.heroProperties .heroProperty {
+	padding: .15em 0em;
+	font-size: 110%;
+	display: block;
+	text-align: left;
+	color: #444;
+}
+
+.add-hero {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.add-hero label {
+	display: block;
+	padding: .5em;
+	position: relative;
+	width: 100%;
+	right: 1em;
+	text-align: right;
+}
+.add-hero span {
+	display: inline-block;
+	padding: 0 .2em;
+	color: #444;
+	min-width: 5em;
+}
+
+.add-hero label input {
+ 	position: relative;
+ 	display: block;
+ 	float: right;
+ 	padding: .5em 0em .3em .5em;
+	border-radius: .5em;
+	border:none;
+	box-shadow: 0em 0em .25em #000;
+}
+
+.add-hero button {
+	padding: .5em;
+	margin: auto;
+	position: relative;
+	display: block;
+	border-radius: 1.5em;
+	border-style: solid;
+	color: #eee;
+	font-size: 110%;
+	background-color: #666;
+}

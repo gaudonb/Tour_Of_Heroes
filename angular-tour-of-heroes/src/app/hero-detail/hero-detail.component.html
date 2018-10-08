@@ -1,0 +1,19 @@
+<div *ngIf="hero" class="selectedHeroContainer">	
+	<h2>{{hero.name | uppercase}} Details</h2>
+	<hr/>
+	<div>
+		<label>rating:
+			<input [(ngModel)]="hero.rating" placeholder="rating"/>
+		</label>
+	</div>
+	<div>
+		<label>name:
+			<input [(ngModel)]="hero.name" placeholder="name"/>
+		</label>
+	</div>
+</div>
+<div class = "btn-controlls">
+	<button (click)="save()">Save Changes</button>
+	<br/>
+	<button (click)="goBack()">Go Back</button>
+</div>

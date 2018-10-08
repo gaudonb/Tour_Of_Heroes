@@ -1,0 +1,37 @@
+.searchComponent{
+	display: inline-block;
+}
+
+ul {
+	display: none;
+	list-style-type: none;
+	padding: 0em;
+	margin: 0em;
+	border-width: .0em .1em .1em .1em;
+	border-style: solid;
+}
+
+#search-box:focus + ul {
+	display: block;
+}
+
+ul li {
+	display: block;
+	padding: .2em .0em .2em .2em;
+	background-color: #ccc;
+	transition: font-size 0.2s;
+}
+
+ul li:hover, ul li:nth-child(odd):hover {
+	background-color: #bbb;
+}
+
+ul li:nth-child(odd) {
+	background-color: #eee;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #444;
+}
+

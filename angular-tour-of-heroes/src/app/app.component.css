@@ -1,0 +1,11 @@
+nav a {
+	border: .05em solid #666;
+	padding: .5em;
+	text-decoration: none;	
+	background-color: #ddd;
+	color: #222;
+}
+
+nav a:hover {
+	background-color: #ccc;
+}
